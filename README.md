@@ -7,3 +7,26 @@
 1. **NodeJS:** an environment for running JS outside of the browser.
 1. **MongoDB/CouchDB:** two databases which use JS as the scripting and query languages.
 1. **Code:** the text that makes up programs.
+1. **Bits:** are any kind of two-valued things, usually described as zeros and ones.
+1. **Value:** a chunk of information (in this case, in a JavaScript environment).
+1. **Number:** a numeric type of value.
+1. **Operators (e.g. +,-,*,/,%):** Putting an operator between two values will apply it to those values and produce a new value.
+1. **Modulo:** an arithmetic operator which gives the remainder after dividing one number by another.
+1. **Special Numbers (e.g. Infinity, -Infinity, NaN):**  are considered numbers but don’t behave like normal numbers.
+1. **Strings:**  are used to represent text. They are written by enclosing their content in quotes(',",`).
+1. **Escaping a character:** inside of a string, a character preceded by a backslash (\) is given special significance.
+1. **Unicode Standard:** assigns a number to virtually every character you would ever need, including characters from Greek, Arabic, Japanese, Armenian, and so on. If we have a number for every character, a string can be described by a sequence of numbers.
+1. **Concatenate:** glue two strings together.
+1. **Template Literal:** a string encased in backticks, as opposed to single or double quotes.
+1.**Binary Operator:** operators that use two values.
+1. **Unary Operator:** operators that use one value.
+1. **console.log:** a method for logging things to the console, and thus making them viewable.
+1. **Boolean:** type of value, which has just two values,true and false, which are written as those words.
+1. **Logical Operators (e.g. !, &&, ||):** operators which can be applied to boolean values themselves.
+1. **Ternary Operator (conditional operator):** only such operator, first value picks second or third, based on its being true or false.
+1. **Empty Values (e.g. null, undefined):** used to denote the absence of a meaningful value - used interchangeably for now.
+1. **Type Coercion:** When an operator is applied to the “wrong” type of value, JavaScript will quietly convert that value to the type it needs, using a set of rules that often aren’t what you want or expect.
+1. **Short Circuiting Evaluation:** only certain parts of a boolean expression (&&, ||) are evaulated. See examples for more details. (null || "agnes", "Agnes" || "user", false && "script")
+
+
+

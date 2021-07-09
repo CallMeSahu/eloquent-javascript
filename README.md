@@ -52,4 +52,5 @@
 1. **The Call Stack:** the way that control flows through functions is involved. Because a function has to jump back to the place that called it when it returns, the computer must remember the context from which the call happened. The place where the computer stores this context is the call stack.
 1. **Optional Arguments/Default Parameters:** JS does not care if you pass in the required number of arguments when calling a function. If you write an = operator after a parameter, followed by an expression, the value of that expression will replace the argument when it is not given.
 1. **Closure:** A function that references bindings from local scopes around it is called a closure... being able to reference a specific instance of a local binding in an enclosing scope—is called closure.
-1. 
+1. **Recursive:** A function that calls itself is called recursive.
+1. **Pure Functions:** A pure function is a specific kind of value-producing function that not only has no side effects but also doesn’t rely on side effects from other code—for example, it doesn’t read global bindings whose value might change.

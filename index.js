@@ -71,3 +71,39 @@ console.log(power(4));
 // → 16
 console.log(power(2, 6));
 // → 64
+
+//Recursive Solution
+function findSolution(target) {
+  function find(current, history) {
+    // if current equals target, return history
+    if (current === target) {
+      return history;
+    // if current is greater than target, return null
+    } else if (current > target) {
+      return null;
+    // if current is less than target
+    } else {
+      // tries both branches, first add 5, then multiply by 3
+      return find(current + 5, `(${history} + 5)`) ||
+             find(current * 3, `(${history} * 3)`);
+    }
+  }
+  // return initial call to "find"
+  return find(1, "1");
+}
+console.log(findSolution(24));
+// → (((1 * 3) + 5) * 3)
+
+//Summary
+// Define f to hold a function value
+const f = function(a) {
+  console.log(a + 2);
+};
+
+// Declare g to be a function
+function g(a, b) {
+  return a * b * 3.5;
+}
+
+// A less verbose function value
+let h = a => a % 3;

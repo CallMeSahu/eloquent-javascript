@@ -43,4 +43,13 @@
 1. **"while":** a keyword - is followed by an expression in parentheses and then a statement, much like if. The loop keeps entering that statement as long as the expression produces a value that gives true when converted to Boolean.
 1. **Indenting code:** consistent indentation is a good habit.
 1. **Comment:** A comment is a piece of text that is part of a program but is completely ignored by the computer.
-
+## Chapter 3: Functions 
+1. **Function:** A function is created with an expression that starts with the keyword function. Functions have a set of parameters (in this case, only x) and a body, which contains the statements that are to be executed when the function is called. The function body of a function created this way must always be wrapped in braces, even when it consists of only a single statement.
+1. **Return Statement:**  A return statement determines the value the function returns (A return keyword without an expression after it will cause the function to return undefined).
+1. **Parameters to a Function:** behave like regular bindings, but their initial values are given by the caller of the function, not the code in the function itself.
+1. **Scope:** Each binding has a scope, which is the part of the program in which the binding is visible.
+1. **Lexical Scoping:** block in the program text. Each local scope can also see all the local scopes that contain it, and all scopes can see the global scope. Side note: When called, the function body sees the environment in which it was created, not the environment in which it is called.
+1. **The Call Stack:** the way that control flows through functions is involved. Because a function has to jump back to the place that called it when it returns, the computer must remember the context from which the call happened. The place where the computer stores this context is the call stack.
+1. **Optional Arguments/Default Parameters:** JS does not care if you pass in the required number of arguments when calling a function. If you write an = operator after a parameter, followed by an expression, the value of that expression will replace the argument when it is not given.
+1. **Closure:** A function that references bindings from local scopes around it is called a closure... being able to reference a specific instance of a local binding in an enclosing scope—is called closure.
+1. 

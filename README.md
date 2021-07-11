@@ -54,8 +54,19 @@
 1. **Closure:** A function that references bindings from local scopes around it is called a closure... being able to reference a specific instance of a local binding in an enclosing scope—is called closure.
 1. **Recursive:** A function that calls itself is called recursive.
 1. **Pure Functions:** A pure function is a specific kind of value-producing function that not only has no side effects but also doesn’t rely on side effects from other code—for example, it doesn’t read global bindings whose value might change.
-## Chapter: Data Structures: Objects and Arrays
+## Chapter 4: Data Structures: Objects and Arrays
  1. **Arrays:** An array is a data structure that contains a group of elements. Typically these elements are all of the same data type, such as an integer or string.
  1. **Methods:** Properties that contain functions are generally called methods of the value they belong to. eg: “toUpperCase is a method of a string”.
  1. **Stack:** stack in programming, is a data structure that allows you to push values into it and pop them out again in the opposite order so that the thing that was added last is removed first(LIFO).
  1. **Objects:** Values of the type object are arbitrary collections of properties. One way to create an object is by using braces as an expression. 
+ 1. **"push()":** adds item to the end of an array.
+ 1. **"pop()":** removes item from the end of an array.
+ 1. **"unshift()":** adds item to the beginning of an array.
+ 1. **"shift()":** removes item from the beginning of an array.
+ 1. **"slice()":** takes start and end indices and returns an array that has only the elements between them. When the end index is not given, slice will take all of the elements after the start index. You can also omit the start index to copy the entire array.
+ 1. **"trim():"** removes whitespace (spaces, newlines, tabs, and similar characters) from the start and end of a string.
+ 1. **Rest Parameter: ** to accept any number of arguments in a function. Use (...argument).
+ 1. **JSON:** stands for JavaScript Object Notation. widely used as a data storage and communication format on the Web
+
+ 
+ 

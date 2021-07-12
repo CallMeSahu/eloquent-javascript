@@ -66,7 +66,14 @@
  1. **"slice()":** takes start and end indices and returns an array that has only the elements between them. When the end index is not given, slice will take all of the elements after the start index. You can also omit the start index to copy the entire array.
  1. **"trim():"** removes whitespace (spaces, newlines, tabs, and similar characters) from the start and end of a string.
  1. **Rest Parameter: ** to accept any number of arguments in a function. Use (...argument).
- 1. **JSON:** stands for JavaScript Object Notation. widely used as a data storage and communication format on the Web
+ 1. **JSON:** stands for JavaScript Object Notation. widely used as a data storage and communication format on the Web.
+## Chapter 5: Higher-order Functions
+1. **Abstractions:** is used to hide background details or any unnecessary implementation about the data so that users only see the required information. It hide details and give us the ability to talk about problems at a higher (or more abstract) level.
+1. **Higher-order Functions:** Functions that operate on other functions, either by taking them as arguments or by returning them, are called higher-order functions. 
+1. **filter:** returns a new array containing only the elements that pass the predicate function. 
+1. **map:** The map method transforms an array by applying a function to all of its elements and building a new array from the returned values. The new array will have the same length as the input array, but its content will have been mapped to a new form by the function.
+1. **reduce:** It builds a value by repeatedly taking a single element from the array and combining it with the current value. 
+1. **findIndex:** finds the position of the first element that matches a predicate.
 
  
  

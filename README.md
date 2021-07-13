@@ -74,6 +74,10 @@
 1. **map:** The map method transforms an array by applying a function to all of its elements and building a new array from the returned values. The new array will have the same length as the input array, but its content will have been mapped to a new form by the function.
 1. **reduce:** It builds a value by repeatedly taking a single element from the array and combining it with the current value. 
 1. **findIndex:** finds the position of the first element that matches a predicate.
-
- 
- 
+## Chapter 6: The Secret Life of Objects
+1. **Encapsulation:** It is the mechanism that binds together code and the data it manipulates. It is a protective shield that prevents the data from being accessed by the code outside this shield.
+1. **Method:** are nothing more than properties that hold function values.
+1. **Prototype:** A prototype is another object that is used as a fallback source of properties. When an object gets a request for a property that it does not have, its prototype will be searched for the property, then the prototype’s prototype, and so on.
+1. **Class:** A class defines the shape of a type of object—what methods and properties it has. Such an object is called an instance of the class.
+1. **Constructor:** A constructor is a special type of member function of a class which initializes objects of a class. Constructor is automatically called when object(instance of class) create.
+1. 

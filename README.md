@@ -80,4 +80,6 @@
 1. **Prototype:** A prototype is another object that is used as a fallback source of properties. When an object gets a request for a property that it does not have, its prototype will be searched for the property, then the prototype’s prototype, and so on.
 1. **Class:** A class defines the shape of a type of object—what methods and properties it has. Such an object is called an instance of the class.
 1. **Constructor:** A constructor is a special type of member function of a class which initializes objects of a class. Constructor is automatically called when object(instance of class) create.
-1. 
+1. **Map:** A map (noun) is a data structure that associates values (the keys) with other values.
+1. **Polymorphism:** When a piece of code is written to work with objects that have a certain interface, any kind of object that happens to support this interface can be plugged into the code.
+1. **Inheritance:** deriving new classes from existing ones such as super class or base class and then forming them into a hierarchy of classes. 
